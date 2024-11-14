@@ -1,0 +1,64 @@
+.hederserver{
+    display: flex;
+    padding: 100px 0;
+    width: 100%;
+    margin: auto;
+    /* background-image: url('../../public/imgss/mg.webp'); */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgBp0-dxpNTkWD0dLZEYTEpxOp0RF8Dr0MIA&s');
+    background-size: cover;
+    background-position: center;
+    height: 99.7vh;
+    align-items: center;
+}
+
+.hederserver .heserver{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.hederserver .heserver .hedserver{
+      width: 100%;
+      margin: auto;
+}
+.hederserver .heserver .hedserver h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.hederserver .heserver .hedserver h1 span{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hederserver .heserver .hedserver h5{
+    font-size: 20px;
+    color: white;
+    font-weight:400px;
+}
+
+.hederserver .heserver .hedserver button{
+    background-color: #123456;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+@media screen and (max-width:990px) {
+    .hederserver .heserver .hedserver h1{
+        font-size: 25px;
+    }
+    .hederserver .heserver .hedserver h1 span{
+        font-size: 30px;
+    }
+    .hederserver .heserver .hedserver h5{
+        font-size: 17px;
+        color: white;
+        font-weight:400px;
+    }
+}
